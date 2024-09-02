@@ -2,10 +2,16 @@ import requests
 import json
 
 def emotion_detector(text_to_analyse):
-    """
-    Sends a request to the sentiment analysis API with the given text.
-    Returns the sentiment label and score.
-    """
+    # Check if the input text is blank
+    if not text_to_analyse or text_to_analyse.strip() == "":
+        return {
+            'anger': None,
+            'disgust': None,
+            'fear': None,
+            'joy': None,
+            'sadness': None,
+            'dominant_emotion': None
+        }
     # Define the URL for the sentiment analysis API
     url='https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
 
