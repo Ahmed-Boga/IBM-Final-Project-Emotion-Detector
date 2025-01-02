@@ -17,17 +17,25 @@ This project is the final submission for an IBM certification program, showcasin
 
 ## Project Structure
 
-Emotion_detector.py: This Python script defines the core functionality for emotion detection. It takes text as input and returns a dictionary containing the scores for anger, disgust, fear, joy, and sadness, along with the dominant emotion.
+- **Emotion_detector.py:** 
+   This Python script defines the core functionality for emotion detection. It takes text as input and returns a dictionary containing the scores for anger, disgust, fear, joy, and sadness, along with the dominant emotion.
 
-server.py: This Flask application serves as the backend for the web application. It defines routes for:
-   /emotionDetector: Accepts a GET request with text input and returns the emotion analysis results.
-   /: Renders the main HTML page for user interaction.
-   
-test_emotion_detection.py: This script contains unit tests for the emotion_detector.py script, ensuring its functionality for various emotions.
+- **server.py:** 
+   This Flask application serves as the backend for the web application. It defines routes for
 
-templates/index.html: This HTML file defines the user interface for the web application. It includes a text area for input, a button to trigger the analysis, and a section to display the results.
+-   **/emotionDetector:** 
+      Accepts a GET request with text input and returns the emotion analysis results.
+-    **/:** 
+      Renders the main HTML page for user interaction.
 
-static/mywebscript.js: This JavaScript file handles the user interaction on the web page. It retrieves the text input, sends it to the backend server for analysis, and displays the returned results.
+- **test_emotion_detection.py:** 
+   This script contains unit tests for the emotion_detector.py script, ensuring its functionality for various emotions.
+
+- **templates/index.html:** 
+   This HTML file defines the user interface for the web application. It includes a text area for input, a button to trigger the analysis, and a section to display the results.
+
+- **static/mywebscript.js:** 
+   This JavaScript file handles the user interaction on the web page. It retrieves the text input, sends it to the backend server for analysis, and displays the returned results.
 
 
 ## Installation and Setup
