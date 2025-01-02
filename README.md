@@ -17,19 +17,19 @@ This project is the final submission for an IBM certification program, showcasin
 
 ## Project Structure
 IBM-Final-Project-Emotion-Detector/
-   │
-   ├── Emotion_detector/
-      │   ├── [EmotionDetection.py](http://emotiondetection.py/)         # Core logic for emotion detection using IBM Watson API
-   │
-   ├── templates/
-      │   ├── index.html                  # Main frontend page for user interaction
-   │
-   ├── static/
-      │   ├── mywebscript.js              # JavaScript logic for handling frontend interaction
-   │
-   ├── [server.py](http://server.py/)                       # Flask web server for handling requests
-   ├── test_emotion_detection.py       # Unit tests for the emotion detection logic
-   └── [README.md](http://readme.md/)                       # Project documentation
+│
+├── Emotion_detector/
+│   ├── EmotionDetection.py         # Core logic for emotion detection using IBM Watson API
+│
+├── templates/
+│   ├── index.html                  # Main frontend page for user interaction
+│
+├── static/
+│   ├── mywebscript.js              # JavaScript logic for handling frontend interaction
+│
+├── server.py                       # Flask web server for handling requests
+├── test_emotion_detection.py       # Unit tests for the emotion detection logic
+└── README.md                       # Project documentation
 
 
 ## Installation and Setup
